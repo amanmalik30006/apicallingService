@@ -1,7 +1,7 @@
 export default async function callApi() {
     try {
       // Replace with your actual API endpoint URL
-      const url = 'http://predict-latest-1.onrender.com/api/code';
+      const url = 'https://predict-latest-1.onrender.com/api/code';
       const response = await fetch(url);
       const data = await response.json();
       console.log(data);
